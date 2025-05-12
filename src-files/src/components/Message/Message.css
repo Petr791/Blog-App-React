@@ -1,0 +1,44 @@
+.validation-message {
+    margin-top: 30px;
+    min-height: 30px;
+    /* border: 1px solid green; */
+    font-style: italic;
+}
+
+.validation-message__text {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.validation-message__text--red {
+    color: #FF0000;
+}
+
+.validation-message__text--yellow {
+    color: yellow;
+}
+
+.validation-message__text--green {
+    color: green;
+}
+
+
+/*  */
+
+.loading-message {
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: 400;
+    color: #979797;
+}
+
+
+/*  */
+
+@media (max-width: 768px) {
+    .validation-message__text {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
